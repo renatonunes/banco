@@ -23,7 +23,11 @@
         "src": "/(.*)",
         "dest": "banco/wsgi.py"
       }
-    ]
+      
+    ],
+    "env": {
+      "PYTHON_VERSION": "3.9.0"
+    }
   }
   
   
